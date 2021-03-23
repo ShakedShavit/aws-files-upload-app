@@ -1,0 +1,54 @@
+.login-box {
+    display: flex;
+    flex-direction: column;
+    margin: 20% auto 0;
+    width: 30rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #b7c997;
+
+    .login-options {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        border-bottom: 2px solid purple;
+
+        * {
+            width: 50%;
+            border: none;
+            outline: none;
+            margin: 0;
+            padding: 10px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .login-button {
+        border: none;
+        margin: 25px;
+        padding: 10px;
+        width: 10rem;
+        background: #1c6c91;
+        color: white;
+        border-radius: 5px;
+        box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+
+        &:hover {
+            cursor: pointer;
+            background: #5ab6e0;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .login-box {
+        width: 80%;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+        margin: 50% auto 0;
+    }
+}
