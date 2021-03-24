@@ -6,7 +6,8 @@ const File = (props) => {
     const [isShowingFileName, setIsShowingFileName] = useState(false);
     const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
 
-    const URL = 'http://localhost:5000/get-file/';
+    // const URL = 'http://localhost:5000';
+    const URL = 'http://Fileuploadserver-env.eba-seavzisc.eu-west-1.elasticbeanstalk.com/get-file/';
     const file = props.file;
     const fileNameSplitArr = file.originalName.split('.');
     const isFileImage = file.type.includes('image');

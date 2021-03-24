@@ -85,3 +85,15 @@
     font-size: 0.8rem;
     border-radius: 5px;
 }
+
+@media (max-width: 575px) {
+    .file-link {
+        color: white;
+        background: black;
+    }
+
+    .delete-file-button {
+        color: white;
+        background: rgb(255, 55, 55);
+    }
+}
