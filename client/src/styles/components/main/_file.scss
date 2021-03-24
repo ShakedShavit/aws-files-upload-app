@@ -87,13 +87,8 @@
 }
 
 @media (max-width: 575px) {
-    .file-link {
-        color: white;
-        background: black;
-    }
-
     .delete-file-button {
-        color: white;
-        background: rgb(255, 55, 55);
+        color: rgb(255, 55, 55);
+        background: white;
     }
 }
